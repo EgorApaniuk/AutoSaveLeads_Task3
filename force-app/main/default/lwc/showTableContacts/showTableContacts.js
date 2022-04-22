@@ -26,7 +26,7 @@ export default class ShowTableContacts extends LightningElement {
             } else if (error) {
                 console.log(error);
             } else {
-		        console.log('unknown error')
+		        console.log('unknown error');
             }
         }
 }
