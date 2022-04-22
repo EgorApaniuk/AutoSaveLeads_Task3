@@ -1,10 +1,7 @@
-<!-- sldsValidatorIgnore -->
-<!-- sldsValidatorIgnore -->
-
 <template>
     <lightning-card>
         <template if:true={data}>
-            <lightning-datatable hide-checkbox-column key-field="Id" data={data} columns={columns}>
+            <lightning-datatable hide-checkbox-column key-field="Id" oncellchange={handleSave} data={data} columns={columns}>
             </lightning-datatable>
         </template>
     </lightning-card>
