@@ -1,5 +1,5 @@
-public class tableLeads {
-
+public class LeadController {
+    
     @AuraEnabled(cacheable=true)
     public static List<Lead> getLeadsTable() {
             List<Lead> leads = new List<Lead>();

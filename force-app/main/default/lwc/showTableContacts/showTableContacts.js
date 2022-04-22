@@ -1,5 +1,5 @@
 import { LightningElement, track, wire} from 'lwc';
-import getContactsTable from '@salesforce/apex/tableContacts.getContactsTable';
+import getContactsTable from '@salesforce/apex/ContactController.getContactsTable';
 
 const COLUMNS = [
     { label: 'Name', fieldName: 'recordLink', type: 'url', 

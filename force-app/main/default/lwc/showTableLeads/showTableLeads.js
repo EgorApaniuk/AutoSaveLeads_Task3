@@ -1,5 +1,5 @@
 import { LightningElement, wire, track } from 'lwc';
-import getLeadsTable from '@salesforce/apex/tableLeads.getLeadsTable';
+import getLeadsTable from '@salesforce/apex/LeadControlle.getLeadsTable';
 import { refreshApex } from '@salesforce/apex';
 import { updateRecord } from 'lightning/uiRecordApi';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';

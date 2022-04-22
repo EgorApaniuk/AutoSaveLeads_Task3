@@ -1,4 +1,4 @@
-public class tableContacts {
+public class ContactController {
 
     @AuraEnabled(cacheable=true)
     public static List<Contact> getContactsTable() {
